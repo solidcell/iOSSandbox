@@ -15,6 +15,8 @@
 		88DD9EBE1DD335F6001BD5BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DD9EBC1DD335F6001BD5BE /* LaunchScreen.storyboard */; };
 		88DD9EC91DD335F6001BD5BE /* iOSSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DD9EC81DD335F6001BD5BE /* iOSSandboxTests.swift */; };
 		88DD9ED41DD33735001BD5BE /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DD9ED31DD33735001BD5BE /* Foo.swift */; };
+		88DD9ED61DD337EB001BD5BE /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DD9ED51DD337EB001BD5BE /* Bar.swift */; };
+		88DD9ED81DD33822001BD5BE /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DD9ED71DD33822001BD5BE /* Thing.swift */; };
 		905499ABE328542B7C1E8932 /* Pods_iOSSandboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594E3327CE88F2290EA7B404 /* Pods_iOSSandboxTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		88DD9EC81DD335F6001BD5BE /* iOSSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSandboxTests.swift; sourceTree = "<group>"; };
 		88DD9ECA1DD335F6001BD5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88DD9ED31DD33735001BD5BE /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
+		88DD9ED51DD337EB001BD5BE /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		88DD9ED71DD33822001BD5BE /* Thing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
 		B7BBBEA663740F917C0DB274 /* Pods-iOSSandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSandbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSandbox/Pods-iOSSandbox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +109,8 @@
 				88DD9EB31DD335F6001BD5BE /* AppDelegate.swift */,
 				88DD9EB51DD335F6001BD5BE /* ViewController.swift */,
 				88DD9ED31DD33735001BD5BE /* Foo.swift */,
+				88DD9ED51DD337EB001BD5BE /* Bar.swift */,
+				88DD9ED71DD33822001BD5BE /* Thing.swift */,
 				88DD9EB71DD335F6001BD5BE /* Main.storyboard */,
 				88DD9EBA1DD335F6001BD5BE /* Assets.xcassets */,
 				88DD9EBC1DD335F6001BD5BE /* LaunchScreen.storyboard */,
@@ -334,7 +340,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				88DD9EB61DD335F6001BD5BE /* ViewController.swift in Sources */,
+				88DD9ED61DD337EB001BD5BE /* Bar.swift in Sources */,
 				88DD9ED41DD33735001BD5BE /* Foo.swift in Sources */,
+				88DD9ED81DD33822001BD5BE /* Thing.swift in Sources */,
 				88DD9EB41DD335F6001BD5BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
